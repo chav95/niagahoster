@@ -1,0 +1,77 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-base: 'Montserrat';
+// $font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+$text-color: #636b6f;
+
+// Brands
+$brand-primary: #3097D1;
+$brand-info: #8eb4cb;
+$brand-success: #2ab27b;
+$brand-warning: #cbb956;
+$brand-danger: #bf5329;
+
+// Navbar
+$navbar-default-bg: #fff;
+
+// Buttons
+$btn-default-color: $text-color;
+
+// Inputs
+$input-border: lighten($text-color, 40%);
+$input-border-focus: lighten($brand-primary, 25%);
+$input-color-placeholder: lighten($text-color, 30%);
+
+// Panels
+$panel-default-heading-bg: #fff;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+.color-blue{
+    color: $blue;
+}
+.color-indigo{
+    color: $indigo;
+}
+.color-purple{
+    color: $purple;
+}
+.color-pink{
+    color: $pink;
+}
+.color-red{
+    color: $red;
+}
+.color-orange{
+    color: $orange;
+}
+.color-yellow{
+    color: $yellow;
+}
+.color-green{
+    color: $green;
+}
+.color-teal{
+    color: $teal;
+}
+.color-cyan{
+    color: $cyan;
+}
+
+// h1, h2{
+//     font-family: 'Montserrat-Bold';
+// }
