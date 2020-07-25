@@ -2,10 +2,10 @@
   <div class="container">
     <div class="row h-100 justify-content-center align-items-center">
       <div class="col-md-6">
-        <div class="">
-          <h1 class=""><strong>PHP Hosting</strong></h1>
-          <h2 class="">Cepat, Handal, Penuh dengan modul PHP yang Anda butuhkan</h2>
-          <div class="mt-3">
+        <div class="card">
+          <h1 class="card-title"><strong>PHP Hosting</strong></h1>
+          <h2 class="">Cepat, Handal, Penuh dengan modul PHP yang Anda buthkan</h2>
+          <div class="card-content mt-3">
             <h5>
               <font-awesome-icon icon="check-circle" class="mr-2 color-green"/>
               Solusi PHP untuk performa query yang lebih cepat

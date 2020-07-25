@@ -1,12 +1,12 @@
 <template>
   <div class="container">
     <div class="row h-100 mt-5 justify-content-center align-items-center">
-      <h1><strong>Paket Hosting Singapura Yang Tepat</strong></h1>
-      <h2>Diskon 40% + Domain dan SSL Gratis untuk Anda</h2>
+      <h1 class="text-center"><strong>Paket Hosting Singapura Yang Tepat</strong></h1>
+      <h2 class="text-center">Diskon 40% + Domain dan SSL Gratis untuk Anda</h2>
     </div>
     
     <div class="row h-100 mt-5 justify-content-center">
-      <div :class="`col-md-3 p-0 text-center align-top ${index == best_seller ? 'best-seller' : ''}`" v-for="(item, index) in hosting_package" :key="index">
+      <div :class="`col-md-3 p-0 mb-4 text-center align-top border ${index == best_seller ? 'best-seller' : ''}`" v-for="(item, index) in hosting_package" :key="index">
         <div class="pricing p-1 mb-0">
           <h2><strong>{{item.name}}</strong></h2>
           <h6><del>Rp {{formatThousand(item.price)}}</del></h6>
@@ -27,7 +27,7 @@
             </div>
           </div>
         </div>
-        <button class="btn pl-3 pr-3 mt-3"><strong>Pilih Sekarang</strong></button>
+        <button class="btn pl-3 pr-3 mt-3 mb-4"><strong>Pilih Sekarang</strong></button>
       </div>
     </div>
   </div>

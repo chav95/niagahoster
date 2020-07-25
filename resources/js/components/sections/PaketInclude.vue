@@ -5,7 +5,7 @@
     </div>
     
     <div class="row h-100 mt-4 justify-content-center align-items-center">
-      <div class="col-md-4 p-0 mr-3 text-center">
+      <div class="col-md-4 p-0 m-3 text-center">
         <table class="table table-striped">
           <tbody>
             <tr><td><h5 class="mb-0">
@@ -23,7 +23,7 @@
           </tbody>
         </table>
       </div>
-      <div class="col-md-4 p-0 ml-3 text-center">
+      <div class="col-md-4 p-0 m-3 text-center">
         <table class="table table-striped">
           <tbody>
             <tr><td><h5 class="mb-0">
